@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Семейный портал</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header class="header p-0">
+        <div class="container-fluid m-0">
+            <div class="row">
+                <div class="col p-0 m-0">
+                    <div class="row d-flex flex-column">
+                        <div class="col my-3">
+                            <ul class="d-flex network justify-content-center">
+                                <li><a href="#" class="network__item m-1"><i class="fab fa-vk"></i></a> </li>
+                                <li><a href="#" class="network__item m-1"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" class="network__item m-1"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#" class="network__item m-1"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#" class="network__item m-1"><i class="fab fa-odnoklassniki"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col header__menu">
+                            <ul class="d-flex justify-content-end m-0">
+                                <li class="header__menu-item p-3"><a href="#" class="">О портале</a> </li>
+                                <li class="header__menu-item p-3"><a href="#" class="">Всё для семьи</a></li>
+                                <li class="header__menu-item p-3"><a href="#" class="">События</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 p-0 ">
+                    <div class="text-center">
+                        <a class="logo" href="#"><img src="img/ЛОГО 1.svg" alt="Лого"></a>
+                    </div>
+                </div>
+                <div class="col p-0 m-0">
+                    <div class="row d-flex flex-column">
+                        <div class="col m-4">
+                            <div class=" text-center">
+                                <a href="#" class="header__menu-write-us p-2">Написать нам</a>
+                            </div>
+                        </div>
+                        <div class="col header__menu">
+                            <ul class="d-flex align-text-center m-0">
+                                <li class="header__menu-item p-3"><a href="#" class="">Вопросы </a> </li>
+                                <li class="header__menu-item p-3"><a href="#" class="">Контакты</a></li>
+                                <div class="header__menu-item p-1">
+                                    <form class="d-flex" role="search">
+                                        <input class="form-control me-2 .bg-transparent" type="search"
+                                            placeholder="Искать" aria-label="Search">
+                                        <button class="bg-transparent text-bg-dark" type="submit"><img
+                                                src="img/Vector.svg"></button>
+                                    </form>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="burger">
+        <nav class="navbar p-0">
+            <div class="container-fluid">
+                <div class="align-self-end">
+                    <button class="navbar-toggler align-bottom" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon "><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                                height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg></span>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <div class="row d-flex justify-content-start my-2">
+                                <ul>
+                                    <a href="#" class="network__item p-1"><i class="fab fa-vk"></i></a>
+                                    <a href="#" class="network__item p-1"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="network__item p-1"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" class="network__item p-1"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="network__item p-1"><i class="fab fa-odnoklassniki"></i></a>
+                                </ul>
+                            </div>
+                            <li>
+                                <form class="d-flex mr-2 my-3" role="search">
+                                    <input class="form-control me-2 .bg-transparent" type="search"
+                                        placeholder="Поиск по сайту" aria-label="Search">
+                                    <button class="bg-transparent text-bg-dark" type="submit"><img
+                                            src="img/Vector.svg"></button>
+                                </form>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Главная</a>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" href="#">О портале</a>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" href="#">Всё для семьи</a>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" href="#">События</a>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" href="#">Вопросы</a>
+                            </li>
+                            <li class="burger__nav-item">
+                                <a class="nav-link" href="#">Контакты</a>
+                            </li>
+
+                        </ul>
+                        <div class="justify-content-center my-3 text-center">
+                            <a href="#" class="header__menu-write-us px-5 p-2">Написать нам</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="align-self-end logo p-0">
+                    <a href="#"><img src="img/ЛОГО 1.svg" alt="Лого"></a>
+                </div>
+                <div class="align-self-end p-2">
+                    <a class="bg-transparent text-bg-dark p-2" type="search"><img src="img/Vector.svg"></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid p-0 pb-5">
+        <div class="content__slider ">
+            <div class="content__slider-inner">
+                <img class="slider__item" src="img/Rectangle 4.png" alt="picture">
+                <img class="slider__item" src="img/баннер.png" alt="picture">
+                <img class="slider__item" src="img/баннер (2).png" alt="picture">
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container-sm my-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xxl-3 content__inner d-flex flex-column align-items-center justify-content-center m-4">
+                    <span class="number1">57</span>
+                    <div class="content__inner-text w-75 mx-auto ">
+                        <p class="text ">семьям, обратившимся к нам, мы помогли</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 content__inner d-flex flex-column align-items-center justify-content-center m-4">
+                    <span class=" number2">24/7</span>
+                    <div class="content__inner-text w-75 mx-auto">
+                        <p class=" text "></p>мы принимаем обращения ежедневно</p>
+                    </div>
+                </div>
+                <div class="col-xxl-3 content__inner d-flex flex-column align-items-center justify-content-center m-4">
+                    <span class="text__more">более</span>
+                    <span class="number3">100</span>
+                    <div class="content__inner-text w-75 mx-auto">
+                        <p class="text align-text-center ">квалифицированных сотрудников</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blok3 py-3 my-5 ">
+        <div class="background">
+            <div class="container-xl pt-5">
+                <div class="row my-3 blok3__nav">
+                    <div class="col-sm-3">
+                        <span>Всё для семьи</span>
+                    </div>
+                    <div class="col nav  blok3__nav-menu justify-content-end">
+                        <a class="nav-link carusel-menu" href="#">Всё</a>
+                        <a class="nav-link carusel-menu" href="#">Важное</a>
+                        <a class="nav-link carusel-menu" href="#">Новости</a>
+                        <a class="nav-link carusel-menu" href="#">Полезное</a>
+                        <div class="offset-1 carusel-button1"></div>
+                    </div>
+                </div>
+
+                <div class="my-2 p-2 pr-5 dropdown1">
+                    <button class="bg-transparent  dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Всё
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a class="dropdown-menu1-item">Важное</a> </li>
+                        <li><a class="dropdown-menu1-item">Новости</a> </li>
+                        <li><a class="dropdown-menu1-item">Полезное</a> </li>
+                    </ul>
+                </div>
+                <div class=" slider2">
+                    <div class="slider2__item">
+                        <div class="text-center card" style="width: 15rem;">
+                            <img src="img//Rectangle 10.png">
+                            <div class=" card-body">
+                                <a href="#" class="btn btn-secondary">Семейные ценности и меры
+                                    поддержки
+                                    семьи</a>
+                                <p class="btn btn-light">Постоянный количественный рост
+                                    определил
+                                    дальнейшее развитие!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider2__item">
+                        <div class="text-center card" style="width: 15rem;">
+                            <img src="img//Rectangle 10 (1).png">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-danger">Семейные ценности
+                                    и
+                                    меры
+                                    поддержки семьи</a>
+                                <p class="btn btn-light">Постоянный количественный рост
+                                    определил
+                                    дальнейшее развитие!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider2__item m-0">
+                        <div class="card text-center" style="width: 15rem;">
+                            <img src="img//Rectangle 10 (2).png">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-success">Семейные ценности и меры
+                                    поддержки
+                                    семьи</a>
+                                <p class="btn btn-light">Постоянный количественный рост
+                                    определил
+                                    дальнейшее развитие!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider2__item m-0">
+                        <div class="text-center card" style="width: 15rem;">
+                            <img src="img//Rectangle 10 (3).png">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning">Семейные ценности и меры поддержки
+                                    семьи></a>
+                                <p class="btn btn-light">Постоянный количественный рост определил дальнейшее
+                                    развитие!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider2__item m-0 justify-content-center">
+                        <div class="text-center card" style="width: 15rem;">
+                            <img src="img//Rectangle 10 (3).png">
+                            <div class="card-body">
+                                <a href="#" class="btn btn-warning">Семейные ценности и меры поддержки
+                                    семьи></a>
+                                <p class="btn btn-light">Постоянный количественный рост определил дальнейшее
+                                    развитие!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col">
+                        <div class=" text-center">
+                            <a href="#" class="more__inner px-5 py-3">Посмотреть всё</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blok4">
+        <div class="container-xl">
+            <div class="row blok4__nav">
+                <div class="col">
+                    <h3>Вопрос - Ответ</h3>
+                </div>
+                <div class="col-sm-6 justify-content-end">
+                    <form class="d-flex" role="search">
+                        <input class="blok4__nav-q-a form-control me-1" type="search"
+                            placeholder="Введите сюда ключевое слово вашего вопроса " aria-label="Search">
+                        <button class=" p-2" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg></button>
+                    </form>
+                </div>
+            </div>
+            <div class="row blok4__inner py-5">
+                <div class="col">
+                    <h6 class="mb-3">Часто задаваемые вопросы</h6>
+                    <div class="row">
+                        <div class="col-12 my-3 blok4__item d-flex">
+                            <p>Являясь всего лишь частью общей картины, сторонники
+                                тоталитаризма в
+                                науке формируют глобальную экономическую сеть и при этом - функционально разнесены
+                                на
+                                независимые элементы?</p>
+                            <div class="dropdown">
+                                <button class="btn btn-light p-3" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <p class="dropdown-item">1</p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 my-3 blok4__item d-flex">
+                            <p>Не следует, однако, забывать, что реализация намеченных
+                                плановых заданий требует анализа глубокомысленных рассуждений?</p>
+                            <div class="dropdown">
+                                <button class="btn btn-light p-3" type="button" id="dropdownMenuButton2"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <p class="dropdown-item">2</p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 my-3 blok4__item d-flex">
+                            <p>Внезапно, предприниматели в сети интернет лишь добавляют
+                                фракционных разногласий и своевременно верифицированы?</p>
+                            <div class="dropdown justify-content-end">
+                                <button class="btn btn-light p-3" type="button" id="dropdownMenuButton3"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                                    <p class="dropdown-item">3</p>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 my-3 blok4__item d-flex">
+                            <p>С другой стороны, выбранный нами инновационный путь позволяет
+                                оценить значение приоритизации разума над эмоциями. С другой стороны, дальнейшее
+                                развитие различных форм деятельности требует определения и уточнения прогресса
+                                профессионального сообщества?</p>
+                            <div class="dropdown">
+                                <button class="btn btn-light p-3" type="button" id="dropdownMenuButton4"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                                        class="bi bi-arrow-down" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                                    </svg>
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                                    <p class="dropdown-item">4</p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="d-flex justify-content-start">
+                        <div class="col picture ">
+                            <img src="img/вопрос.svg">
+                            <a class="take-q py-2 px-5" href="#">Задать вопрос</a>
+                        </div>
+                    </div>
+                </div>
+                <li class="all-q-a">
+                    <a href="#" class="all-q-a pt-1">Смотреть все вопросы и ответы <img src="img/Forward(E72A).svg"></a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="blok5">
+        <div class="background2">
+            <div class="container-xl pt-5">
+                <div class="row my-3 blok5-nav">
+                    <div class="col-sm-3">
+                        <span>Всё для семьи</span>
+                    </div>
+                    <div class="col nav justify-content-end">
+                        <a class="nav-link carusel-menu" href="#">Всё</a>
+                        <a class="nav-link carusel-menu" href="#">Важное</a>
+                        <a class="nav-link carusel-menu" href="#">Новости</a>
+                        <a class="nav-link carusel-menu" href="#">Полезное</a>
+                        <div class="offset-1 carusel-button2"></div>
+                    </div>
+                </div>
+                <div class="my-2 p-2 pr-5 dropdown2">
+                    <button class="bg-transparent  dropdown-toggle" type="button" id="dropdownMenu1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Всё
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a class="dropdown-menu2-item">Важное</a> </li>
+                        <li><a class="dropdown-menu2-item">Новости</a> </li>
+                        <li><a class="dropdown-menu2-item">Полезное</a> </li>
+                    </ul>
+                </div>
+                <div class="slider3 d-flex justify-content-center">
+                    <div class="slider3__item">
+                        <div class="col">
+                            <div class="card text-center" style="width: 15rem;">
+                                <div class="card-title1"><img src="img/Rectangle10.svg"></div>
+                                <a href="#" class="card-text1">Известный инсайдер, в преддверии важного события,
+                                    бодрит </a>
+                                <span class="date1">23.12.2019г.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider3__item">
+                        <div class="col">
+                            <div class="card text-center" style="width: 15rem;">
+                                <div class="card-title1"><img src="img/Rectangle 10 (3).svg"></div>
+                                <a href="#" class="card-text1">Британские ученые заявили, что объемы
+                                    выросли
+                                </a>
+                                <span class="date1">23.12.2019г.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider3__item m-0">
+                        <div class="col">
+                            <div class="card text-center" style="width: 15rem;">
+                                <div class="card-title1"><img src="img/Rectangle 10 (1).svg"></div>
+                                <a href="#" class="card-text1">Очевидцы сообщают, что слышали звон
+                                    колоколов</a>
+                                <span class="date1">23.12.2019г.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider3__item m-0">
+                        <div class="col">
+                            <div class="card text-center" style="width: 15rem;">
+                                <div class="card-title1"><img src="img/Rectangle 10 (2).svg"></div>
+                                <a href="#" class="card-text1"> Доблесть наших правозащитников оказалась
+                                    чрезвычайно полезной!
+                                </a>
+                                <span class="date1">23.12.2019г.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider3__item m-0">
+                        <div class="col">
+                            <div class="card text-center" style="width: 15rem;">
+                                <div class="card-title1"><img src="img/Rectangle 10 (2).svg"></div>
+                                <a href="#" class="card-text1"> Доблесть наших правозащитников оказалась
+                                    чрезвычайно полезной!
+                                </a>
+                                <span class="date1">23.12.2019г.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col">
+                        <div class=" text-center">
+                            <a href="#" class="more__inner2 px-5 py-3">Посмотреть всё</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-between people">
+                    <div class="col-1">
+                        <div class="people1"><img src="img/Group-1.svg"></div>
+                    </div>
+                    <div class="col-2">
+                        <div class="people1"><img src="img/Group.svg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row footer py-3">
+            <div class="col">
+                <div class=" text-center">
+                    <span class="">Управление ЗАГС Амурской области </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

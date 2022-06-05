@@ -1,0 +1,524 @@
+*,
+::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+div,
+input,
+a,
+p,
+span,
+ul li {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header__menu {
+    background-color: #B7C136;
+    align-items: center;
+}
+
+
+.header__menu-item:hover {
+    background-color: #44481e4d;
+}
+
+.header__menu-write-us {
+    border: 1px solid #5c5c6c;
+    border-radius: 4px;
+    color: #000;
+}
+
+.header__menu-write-us:hover {
+    background-color: #B7C136;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 168px;
+    background-color: #fff;
+}
+
+.network__item:hover {
+    padding: 4px 8px;
+    border-radius: 60%;
+    background-color: #5878B7;
+}
+
+.offcanvas-body {
+    background-color: #F5F5F4;
+} 
+
+.content__inner {
+    Width: 271px;
+    Height: 135px;
+    border: 1px solid #B7C136;
+    position: relative;
+}
+
+.content__inner-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.number1,
+.number2,
+.number3 {
+    position: absolute;
+    bottom: 100px;
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0em;
+
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+
+}
+
+.text__more {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    bottom: 140px;
+    left: 10px;
+}
+
+.number1 {
+    color: #5795AA;
+}
+
+.number2 {
+    color: #FFBE3B;
+}
+
+.number3 {
+    left: 65px;
+    color: #D35F8E;
+}
+
+.blok3 {
+    background-color: #F5F5F4;
+}
+
+.background {
+    background-image: url(../img/рисунки.svg);
+}
+
+.blok3__nav {
+    border-bottom: 1px solid #007BBA;
+}
+
+.dropdown1,
+.dropdown2 {
+    display: none;
+}
+
+.dropdown-menu1-item:hover {
+    color: #007BBA;
+}
+
+.dropdown-menu2-item:hover {
+    color: #007BBA;
+}
+
+.carusel-menu:hover {
+    border-top: 2px solid #007BBA;
+}
+
+.more__inner {
+    border: 1px solid #5c5c6c;
+    border-radius: 4px;
+
+}
+
+.more__inner:hover {
+    background-color: #B7C136;
+    color: #fff
+}
+
+.blok4__item,
+.blok4__nav {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.blok4__item nav {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+}
+
+.blok4__inner button:hover {
+    background-color: #B7C136;
+    color: #fff;
+}
+
+.blok4__item button {
+    color: #B7C136;
+}
+
+.picture {
+    position: relative;
+}
+
+.take-q {
+    display: flex;
+    position: absolute;
+    left: 48px;
+    top: 148px;
+    border-radius: 4px;
+    background-color: #B7C136;
+    color: #fff;
+}
+
+.take-q:hover {
+    background-color: #F5F5F4;
+    border: 2px solid #B7C136;
+}
+
+.blok5-nav {
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.carusel-menu2:hover {
+    border-top: 2px solid #5E727C;
+    color: #5E727C;
+}
+
+.card-title1 {
+    position: relative;
+}
+
+.card-text1 {
+    position: absolute;
+    left: 5px;
+    bottom: 50px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.date1 {
+    position: absolute;
+    left: 5px;
+    bottom: 15px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+
+}
+
+.background2 {
+    position: relative;
+    background-color: #7CB3CE;
+}
+
+.people1 {
+    position: absolute;
+    bottom: 60px;
+}
+
+.more__inner2 {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.more__inner2:hover {
+    background-color: #B7C136;
+}
+
+.footer {
+    background-color: #5E727C;
+    color: #fff;
+}
+
+.burger nav {
+    background-color: #B7C136;
+    max-height: 50px;
+    align-content: flex-end;
+    margin-top: 80px;
+}
+
+.burger button {
+    color: #fff;
+    border: #Fff;
+}
+
+.burger__nav-item:hover {
+    color: #B7C136;
+}
+
+.burger {
+    display: none;
+}
+
+.content__slider-inner .slider__item img {
+    width: 100%;
+    position: relative;
+
+}
+
+.slick-list {
+    overflow: hidden;
+
+}
+
+.content__slider-inner .slick-dots {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+}
+
+.content__slider-inner .slick-dots li+li {
+    padding-left: 10px;
+}
+
+.content__slider-inner .slick-dots button {
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #C4C4C4;
+    Width: 50px;
+    height: 3px;
+}
+
+.content__slider-inner .slick-dots .slick-active button {
+    background-color: #B7C136;
+}
+
+
+.carusel2 {
+    position: relative;
+    cursor: pointer;
+}
+
+.carusel2 button {
+    position: absolute;
+    cursor: pointer;
+    bottom: 700px;
+    background-color: #000;
+}
+
+.carusel-button1 {
+    position: relative;
+}
+
+.slider2 .slick-arrow {
+    z-index: 10;
+    position: absolute;
+    bottom: 420px;
+    right: 0px;
+    height: 20px;
+    border: 1px solid #007BBA;
+    font-size: 0;
+}
+
+.slider2 .slick-next {
+    background: url(../img/next.png);
+    right: 0px;
+    width: 20px;
+}
+
+.slider2 .slick-next:hover {
+    background-color: #B7C136;
+}
+
+.slider2 .slick-prev {
+    background: url(../img/left-arrow\ \(1\).png);
+    right: 20px;
+    width: 20px;
+}
+
+.slider2 .slick-prev:hover {
+    background-color: #B7C136;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.carusel-button2 {
+    position: relative;
+}
+
+.slider3 .slick-arrow {
+    z-index: 10;
+    position: absolute;
+    bottom: 310px;
+    right: 0px;
+    height: 20px;
+    border: 1px solid #fff;
+    font-size: 0;
+}
+
+.slider3 .slick-next {
+    background: url(../img/next.png);
+    right: 0px;
+    width: 20px;
+}
+
+.slider3 .slick-prev {
+    background: url(../img/left-arrow\ \(1\).png);
+    right: 20px;
+    width: 20px;
+}
+
+.slider3 .slick-next:hover {
+    background-color: #B7C136;
+}
+
+.slider3 .slick-prev:hover {
+    background-color: #B7C136;
+}
+
+.slider3__item {
+    Width: 270px;
+}
+
+@media(min-width: 3000px) {
+    .content__slider-inner .slick-dots {
+        bottom: 35px;
+        left: 21%;
+    }
+
+    .content__slider-inner .slick-dots button {
+        Width: 200px;
+        height: 30px;
+    }
+}
+
+@media(min-width: 2000px) {
+    .content__slider-inner .slick-dots {
+        bottom: 10px;
+        left: 19%;
+    }
+
+    .content__slider-inner .slick-dots button {
+        Width: 90px;
+        height: 7px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        display: none;
+    }
+
+
+    .burger {
+        display: block;
+    }
+
+    .people1 {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+    }
+
+    .content__slider-inner .slick-dots {
+        bottom: -8px;
+        left: 17%;
+    }
+
+    .content__slider-inner .slick-dots button {
+        Width: 35px;
+        height: 2px;
+    }
+}
+
+@media (max-width: 992px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .content__slider-inner .slick-dots {
+        bottom: -13px;
+        left: 15%;
+    }
+
+    .slider2 .slick-arrow {
+        bottom: 460px;
+    }
+
+    .slider3 .slick-arrow {
+        bottom: 352px;
+    }
+
+    .content__slider-inner .slick-dots button {
+        Width: 23px;
+        height: 1.5px;
+    }
+
+    .dropdown1,
+    .dropdown2 {
+        display: block;
+        background-color: #FDFDFD;
+        border-radius: 4px;
+    }
+
+    .nav .carusel-menu {
+        display: none;
+    } 
+}
+
+@media (max-width: 500px) {
+    .content__slider-inner .slick-dots {
+        bottom: -13px;
+        left: 11%;
+    } 
+    .content__slider-inner .slick-dots button {
+        Width: 15px;
+        height: 1px;
+    }
+}
